@@ -1,0 +1,38 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+}
+.failureView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view {
+  height: 500px;
+  width: 500px;
+}
+.error-msg {
+  color: #1e293b;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.paragraph {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.button {
+  height: 50px;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #1e293b;
+}

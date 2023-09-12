@@ -1,0 +1,65 @@
+.background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw;
+  background-color: antiquewhite;
+}
+.nav-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 20vh;
+  width: 100vw;
+  background-color: aqua;
+  padding: 30px;
+}
+.website-logo {
+  height: 35px;
+  width: 100px;
+}
+.course-heading {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.courses-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-height: 500px;
+  min-width: 500px;
+}
+.failureView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view {
+  height: 500px;
+  width: 500px;
+}
+.error-msg {
+  color: #1e293b;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+.paragraph {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.button {
+  height: 50px;
+  width: 100px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #1e293b;
+}
